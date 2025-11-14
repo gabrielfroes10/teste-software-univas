@@ -1,0 +1,428 @@
+2025-11-13 21:55:03,280 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-11-13 21:55:03,298 INFO o.a.j.JMeter: Loading user properties from: C:\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\user.properties
+2025-11-13 21:55:03,298 INFO o.a.j.JMeter: Loading system properties from: C:\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\system.properties
+2025-11-13 21:55:03,298 INFO o.a.j.JMeter: Loading additional properties from: backend/tests/jmeter/props/local.properties
+2025-11-13 21:55:03,312 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-11-13 21:55:03,312 INFO o.a.j.JMeter: Version 5.6.3
+2025-11-13 21:55:03,312 INFO o.a.j.JMeter: java.version=24.0.2
+2025-11-13 21:55:03,312 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-11-13 21:55:03,313 INFO o.a.j.JMeter: os.name=Windows 11
+2025-11-13 21:55:03,313 INFO o.a.j.JMeter: os.arch=amd64
+2025-11-13 21:55:03,313 INFO o.a.j.JMeter: os.version=10.0
+2025-11-13 21:55:03,313 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-11-13 21:55:03,313 INFO o.a.j.JMeter: java.awt.headless=true
+2025-11-13 21:55:03,313 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-11-13 21:55:03,313 INFO o.a.j.JMeter: Available Processors =12
+2025-11-13 21:55:03,327 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-11-13 21:55:03,327 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-11-13 21:55:03,328 INFO o.a.j.JMeter: JMeterHome=C:\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2025-11-13 21:55:03,328 INFO o.a.j.JMeter: user.dir  =C:\Users\Administrador\teste-software-univas
+2025-11-13 21:55:03,328 INFO o.a.j.JMeter: PWD       =C:\Users\Administrador\teste-software-univas
+2025-11-13 21:55:03,329 INFO o.a.j.JMeter: IP: 192.168.190.153 Name: UNI-LABF-7420 FullName: UNI-LABF-7420.fuvs.br
+2025-11-13 21:55:03,338 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\Administrador\teste-software-univas\backend\tests\jmeter\reports\smoke'
+2025-11-13 21:55:03,339 INFO o.a.j.s.FileServer: Default base='C:\Users\Administrador\teste-software-univas'
+2025-11-13 21:55:03,341 INFO o.a.j.s.FileServer: Set new base='C:\Users\Administrador\teste-software-univas\backend\tests\jmeter\plans'
+2025-11-13 21:55:03,632 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-11-13 21:55:03,664 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-11-13 21:55:03,667 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-11-13 21:55:03,669 INFO o.a.j.s.SaveService: Loading file: backend\tests\jmeter\plans\smoke.jmx
+2025-11-13 21:55:03,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-11-13 21:55:03,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-11-13 21:55:03,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-11-13 21:55:03,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-11-13 21:55:03,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-11-13 21:55:03,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-11-13 21:55:03,742 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-11-13 21:55:03,745 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-11-13 21:55:03,745 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: backend/tests/jmeter/results/smoke.jtl
+2025-11-13 21:55:03,745 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2025-11-13 21:55:03,746 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-11-13 21:55:03,748 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-11-13 21:55:03,751 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-11-13 21:55:03,751 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-11-13 21:55:03,751 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-11-13 21:55:03,751 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-11-13 21:55:03,751 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-11-13 21:55:03,751 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-11-13 21:55:03,751 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-11-13 21:55:03,752 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-11-13 21:55:03,754 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-11-13 21:55:03,754 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-13 21:55:03,754 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-11-13 21:55:03,754 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-11-13 21:55:03,755 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-11-13 21:55:03,755 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-11-13 21:55:03,755 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-13 21:55:03,755 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-13 21:55:03,755 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-13 21:55:03,755 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-13 21:55:03,756 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-11-13 21:55:03,756 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-11-13 21:55:03,756 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-11-13 21:55:03,756 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-11-13 21:55:03,756 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-11-13 21:55:03,756 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-11-13 21:55:03,773 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-11-13 21:55:03,773 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-11-13 21:55:03,774 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-11-13 21:55:03,780 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-11-13 21:55:03,780 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-11-13 21:55:03,847 INFO o.a.j.JMeter: Running test (1763081703846)
+2025-11-13 21:55:03,865 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : API
+2025-11-13 21:55:03,865 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group API.
+2025-11-13 21:55:03,865 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-11-13 21:55:03,865 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=10 delayedStart=false
+2025-11-13 21:55:03,878 INFO o.a.j.t.JMeterThread: Thread started: API 1-1
+2025-11-13 21:55:03,903 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = UNI-LABF-7420
+2025-11-13 21:55:03,904 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-11-13 21:55:03,905 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-11-13 21:55:03,909 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-11-13 21:55:03,911 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-11-13 21:55:03,911 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-11-13 21:55:03,911 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-11-13 21:55:03,911 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-11-13 21:55:03,974 INFO o.a.j.t.JMeterThread: Thread started: API 1-2
+2025-11-13 21:55:04,074 INFO o.a.j.t.JMeterThread: Thread started: API 1-3
+2025-11-13 21:55:04,106 INFO o.a.j.t.JMeterThread: Thread is done: API 1-3
+2025-11-13 21:55:04,106 INFO o.a.j.t.JMeterThread: Thread is done: API 1-1
+2025-11-13 21:55:04,106 INFO o.a.j.t.JMeterThread: Thread finished: API 1-3
+2025-11-13 21:55:04,106 INFO o.a.j.t.JMeterThread: Thread finished: API 1-1
+2025-11-13 21:55:04,106 INFO o.a.j.r.Summariser: summary +      1 in 00:00:00 =    3.9/s Avg:    59 Min:    59 Max:    59 Err:     0 (0.00%) Active: 3 Started: 3 Finished: 0
+2025-11-13 21:55:04,106 INFO o.a.j.t.JMeterThread: Thread is done: API 1-2
+2025-11-13 21:55:04,107 INFO o.a.j.t.JMeterThread: Thread finished: API 1-2
+2025-11-13 21:55:04,173 INFO o.a.j.t.JMeterThread: Thread started: API 1-4
+2025-11-13 21:55:04,179 INFO o.a.j.t.JMeterThread: Thread is done: API 1-4
+2025-11-13 21:55:04,179 INFO o.a.j.t.JMeterThread: Thread finished: API 1-4
+2025-11-13 21:55:04,271 INFO o.a.j.t.JMeterThread: Thread started: API 1-5
+2025-11-13 21:55:04,282 INFO o.a.j.t.JMeterThread: Thread is done: API 1-5
+2025-11-13 21:55:04,282 INFO o.a.j.t.JMeterThread: Thread finished: API 1-5
+2025-11-13 21:55:04,370 INFO o.a.j.t.JMeterThread: Thread started: API 1-6
+2025-11-13 21:55:04,380 INFO o.a.j.t.JMeterThread: Thread is done: API 1-6
+2025-11-13 21:55:04,380 INFO o.a.j.t.JMeterThread: Thread finished: API 1-6
+2025-11-13 21:55:04,470 INFO o.a.j.t.JMeterThread: Thread started: API 1-7
+2025-11-13 21:55:04,478 INFO o.a.j.t.JMeterThread: Thread is done: API 1-7
+2025-11-13 21:55:04,478 INFO o.a.j.t.JMeterThread: Thread finished: API 1-7
+2025-11-13 21:55:04,569 INFO o.a.j.t.JMeterThread: Thread started: API 1-8
+2025-11-13 21:55:04,581 INFO o.a.j.t.JMeterThread: Thread is done: API 1-8
+2025-11-13 21:55:04,581 INFO o.a.j.t.JMeterThread: Thread finished: API 1-8
+2025-11-13 21:55:04,670 INFO o.a.j.t.JMeterThread: Thread started: API 1-9
+2025-11-13 21:55:04,682 INFO o.a.j.t.JMeterThread: Thread is done: API 1-9
+2025-11-13 21:55:04,682 INFO o.a.j.t.JMeterThread: Thread finished: API 1-9
+2025-11-13 21:55:04,768 INFO o.a.j.t.JMeterThread: Thread started: API 1-10
+2025-11-13 21:55:04,778 INFO o.a.j.t.JMeterThread: Thread is done: API 1-10
+2025-11-13 21:55:04,778 INFO o.a.j.t.JMeterThread: Thread finished: API 1-10
+2025-11-13 21:55:04,867 INFO o.a.j.t.JMeterThread: Thread started: API 1-11
+2025-11-13 21:55:04,879 INFO o.a.j.t.JMeterThread: Thread is done: API 1-11
+2025-11-13 21:55:04,880 INFO o.a.j.t.JMeterThread: Thread finished: API 1-11
+2025-11-13 21:55:04,967 INFO o.a.j.t.JMeterThread: Thread started: API 1-12
+2025-11-13 21:55:04,978 INFO o.a.j.t.JMeterThread: Thread is done: API 1-12
+2025-11-13 21:55:04,978 INFO o.a.j.t.JMeterThread: Thread finished: API 1-12
+2025-11-13 21:55:05,067 INFO o.a.j.t.JMeterThread: Thread started: API 1-13
+2025-11-13 21:55:05,079 INFO o.a.j.t.JMeterThread: Thread is done: API 1-13
+2025-11-13 21:55:05,079 INFO o.a.j.t.JMeterThread: Thread finished: API 1-13
+2025-11-13 21:55:05,166 INFO o.a.j.t.JMeterThread: Thread started: API 1-14
+2025-11-13 21:55:05,178 INFO o.a.j.t.JMeterThread: Thread is done: API 1-14
+2025-11-13 21:55:05,178 INFO o.a.j.t.JMeterThread: Thread finished: API 1-14
+2025-11-13 21:55:05,266 INFO o.a.j.t.JMeterThread: Thread started: API 1-15
+2025-11-13 21:55:05,279 INFO o.a.j.t.JMeterThread: Thread is done: API 1-15
+2025-11-13 21:55:05,279 INFO o.a.j.t.JMeterThread: Thread finished: API 1-15
+2025-11-13 21:55:05,366 INFO o.a.j.t.JMeterThread: Thread started: API 1-16
+2025-11-13 21:55:05,375 INFO o.a.j.t.JMeterThread: Thread is done: API 1-16
+2025-11-13 21:55:05,375 INFO o.a.j.t.JMeterThread: Thread finished: API 1-16
+2025-11-13 21:55:05,468 INFO o.a.j.t.JMeterThread: Thread started: API 1-17
+2025-11-13 21:55:05,478 INFO o.a.j.t.JMeterThread: Thread is done: API 1-17
+2025-11-13 21:55:05,479 INFO o.a.j.t.JMeterThread: Thread finished: API 1-17
+2025-11-13 21:55:05,568 INFO o.a.j.t.JMeterThread: Thread started: API 1-18
+2025-11-13 21:55:05,578 INFO o.a.j.t.JMeterThread: Thread is done: API 1-18
+2025-11-13 21:55:05,578 INFO o.a.j.t.JMeterThread: Thread finished: API 1-18
+2025-11-13 21:55:05,667 INFO o.a.j.t.JMeterThread: Thread started: API 1-19
+2025-11-13 21:55:05,679 INFO o.a.j.t.JMeterThread: Thread is done: API 1-19
+2025-11-13 21:55:05,680 INFO o.a.j.t.JMeterThread: Thread finished: API 1-19
+2025-11-13 21:55:05,767 INFO o.a.j.t.JMeterThread: Thread started: API 1-20
+2025-11-13 21:55:05,779 INFO o.a.j.t.JMeterThread: Thread is done: API 1-20
+2025-11-13 21:55:05,779 INFO o.a.j.t.JMeterThread: Thread finished: API 1-20
+2025-11-13 21:55:05,867 INFO o.a.j.t.JMeterThread: Thread started: API 1-21
+2025-11-13 21:55:05,881 INFO o.a.j.t.JMeterThread: Thread is done: API 1-21
+2025-11-13 21:55:05,881 INFO o.a.j.t.JMeterThread: Thread finished: API 1-21
+2025-11-13 21:55:05,965 INFO o.a.j.t.JMeterThread: Thread started: API 1-22
+2025-11-13 21:55:05,976 INFO o.a.j.t.JMeterThread: Thread is done: API 1-22
+2025-11-13 21:55:05,976 INFO o.a.j.t.JMeterThread: Thread finished: API 1-22
+2025-11-13 21:55:06,066 INFO o.a.j.t.JMeterThread: Thread started: API 1-23
+2025-11-13 21:55:06,079 INFO o.a.j.t.JMeterThread: Thread is done: API 1-23
+2025-11-13 21:55:06,079 INFO o.a.j.t.JMeterThread: Thread finished: API 1-23
+2025-11-13 21:55:06,166 INFO o.a.j.t.JMeterThread: Thread started: API 1-24
+2025-11-13 21:55:06,184 INFO o.a.j.t.JMeterThread: Thread is done: API 1-24
+2025-11-13 21:55:06,184 INFO o.a.j.t.JMeterThread: Thread finished: API 1-24
+2025-11-13 21:55:06,267 INFO o.a.j.t.JMeterThread: Thread started: API 1-25
+2025-11-13 21:55:06,279 INFO o.a.j.t.JMeterThread: Thread is done: API 1-25
+2025-11-13 21:55:06,280 INFO o.a.j.t.JMeterThread: Thread finished: API 1-25
+2025-11-13 21:55:06,366 INFO o.a.j.t.JMeterThread: Thread started: API 1-26
+2025-11-13 21:55:06,377 INFO o.a.j.t.JMeterThread: Thread is done: API 1-26
+2025-11-13 21:55:06,377 INFO o.a.j.t.JMeterThread: Thread finished: API 1-26
+2025-11-13 21:55:06,466 INFO o.a.j.t.JMeterThread: Thread started: API 1-27
+2025-11-13 21:55:06,473 INFO o.a.j.t.JMeterThread: Thread is done: API 1-27
+2025-11-13 21:55:06,473 INFO o.a.j.t.JMeterThread: Thread finished: API 1-27
+2025-11-13 21:55:06,565 INFO o.a.j.t.JMeterThread: Thread started: API 1-28
+2025-11-13 21:55:06,572 INFO o.a.j.t.JMeterThread: Thread is done: API 1-28
+2025-11-13 21:55:06,572 INFO o.a.j.t.JMeterThread: Thread finished: API 1-28
+2025-11-13 21:55:06,667 INFO o.a.j.t.JMeterThread: Thread started: API 1-29
+2025-11-13 21:55:06,672 INFO o.a.j.t.JMeterThread: Thread is done: API 1-29
+2025-11-13 21:55:06,672 INFO o.a.j.t.JMeterThread: Thread finished: API 1-29
+2025-11-13 21:55:06,767 INFO o.a.j.t.JMeterThread: Thread started: API 1-30
+2025-11-13 21:55:06,774 INFO o.a.j.t.JMeterThread: Thread is done: API 1-30
+2025-11-13 21:55:06,774 INFO o.a.j.t.JMeterThread: Thread finished: API 1-30
+2025-11-13 21:55:06,865 INFO o.a.j.t.JMeterThread: Thread started: API 1-31
+2025-11-13 21:55:06,872 INFO o.a.j.t.JMeterThread: Thread is done: API 1-31
+2025-11-13 21:55:06,872 INFO o.a.j.t.JMeterThread: Thread finished: API 1-31
+2025-11-13 21:55:06,965 INFO o.a.j.t.JMeterThread: Thread started: API 1-32
+2025-11-13 21:55:06,972 INFO o.a.j.t.JMeterThread: Thread is done: API 1-32
+2025-11-13 21:55:06,972 INFO o.a.j.t.JMeterThread: Thread finished: API 1-32
+2025-11-13 21:55:07,066 INFO o.a.j.t.JMeterThread: Thread started: API 1-33
+2025-11-13 21:55:07,072 INFO o.a.j.t.JMeterThread: Thread is done: API 1-33
+2025-11-13 21:55:07,072 INFO o.a.j.t.JMeterThread: Thread finished: API 1-33
+2025-11-13 21:55:07,167 INFO o.a.j.t.JMeterThread: Thread started: API 1-34
+2025-11-13 21:55:07,173 INFO o.a.j.t.JMeterThread: Thread is done: API 1-34
+2025-11-13 21:55:07,173 INFO o.a.j.t.JMeterThread: Thread finished: API 1-34
+2025-11-13 21:55:07,273 INFO o.a.j.t.JMeterThread: Thread started: API 1-35
+2025-11-13 21:55:07,296 INFO o.a.j.t.JMeterThread: Thread is done: API 1-35
+2025-11-13 21:55:07,296 INFO o.a.j.t.JMeterThread: Thread finished: API 1-35
+2025-11-13 21:55:07,366 INFO o.a.j.t.JMeterThread: Thread started: API 1-36
+2025-11-13 21:55:07,375 INFO o.a.j.t.JMeterThread: Thread is done: API 1-36
+2025-11-13 21:55:07,375 INFO o.a.j.t.JMeterThread: Thread finished: API 1-36
+2025-11-13 21:55:07,466 INFO o.a.j.t.JMeterThread: Thread started: API 1-37
+2025-11-13 21:55:07,477 INFO o.a.j.t.JMeterThread: Thread is done: API 1-37
+2025-11-13 21:55:07,477 INFO o.a.j.t.JMeterThread: Thread finished: API 1-37
+2025-11-13 21:55:07,565 INFO o.a.j.t.JMeterThread: Thread started: API 1-38
+2025-11-13 21:55:07,577 INFO o.a.j.t.JMeterThread: Thread is done: API 1-38
+2025-11-13 21:55:07,578 INFO o.a.j.t.JMeterThread: Thread finished: API 1-38
+2025-11-13 21:55:07,665 INFO o.a.j.t.JMeterThread: Thread started: API 1-39
+2025-11-13 21:55:07,677 INFO o.a.j.t.JMeterThread: Thread is done: API 1-39
+2025-11-13 21:55:07,677 INFO o.a.j.t.JMeterThread: Thread finished: API 1-39
+2025-11-13 21:55:07,766 INFO o.a.j.t.JMeterThread: Thread started: API 1-40
+2025-11-13 21:55:07,776 INFO o.a.j.t.JMeterThread: Thread is done: API 1-40
+2025-11-13 21:55:07,777 INFO o.a.j.t.JMeterThread: Thread finished: API 1-40
+2025-11-13 21:55:07,867 INFO o.a.j.t.JMeterThread: Thread started: API 1-41
+2025-11-13 21:55:07,878 INFO o.a.j.t.JMeterThread: Thread is done: API 1-41
+2025-11-13 21:55:07,879 INFO o.a.j.t.JMeterThread: Thread finished: API 1-41
+2025-11-13 21:55:07,966 INFO o.a.j.t.JMeterThread: Thread started: API 1-42
+2025-11-13 21:55:07,979 INFO o.a.j.t.JMeterThread: Thread is done: API 1-42
+2025-11-13 21:55:07,979 INFO o.a.j.t.JMeterThread: Thread finished: API 1-42
+2025-11-13 21:55:08,066 INFO o.a.j.t.JMeterThread: Thread started: API 1-43
+2025-11-13 21:55:08,080 INFO o.a.j.t.JMeterThread: Thread is done: API 1-43
+2025-11-13 21:55:08,080 INFO o.a.j.t.JMeterThread: Thread finished: API 1-43
+2025-11-13 21:55:08,166 INFO o.a.j.t.JMeterThread: Thread started: API 1-44
+2025-11-13 21:55:08,180 INFO o.a.j.t.JMeterThread: Thread is done: API 1-44
+2025-11-13 21:55:08,180 INFO o.a.j.t.JMeterThread: Thread finished: API 1-44
+2025-11-13 21:55:08,267 INFO o.a.j.t.JMeterThread: Thread started: API 1-45
+2025-11-13 21:55:08,277 INFO o.a.j.t.JMeterThread: Thread is done: API 1-45
+2025-11-13 21:55:08,277 INFO o.a.j.t.JMeterThread: Thread finished: API 1-45
+2025-11-13 21:55:08,366 INFO o.a.j.t.JMeterThread: Thread started: API 1-46
+2025-11-13 21:55:08,378 INFO o.a.j.t.JMeterThread: Thread is done: API 1-46
+2025-11-13 21:55:08,378 INFO o.a.j.t.JMeterThread: Thread finished: API 1-46
+2025-11-13 21:55:08,467 INFO o.a.j.t.JMeterThread: Thread started: API 1-47
+2025-11-13 21:55:08,474 INFO o.a.j.t.JMeterThread: Thread is done: API 1-47
+2025-11-13 21:55:08,475 INFO o.a.j.t.JMeterThread: Thread finished: API 1-47
+2025-11-13 21:55:08,567 INFO o.a.j.t.JMeterThread: Thread started: API 1-48
+2025-11-13 21:55:08,582 INFO o.a.j.t.JMeterThread: Thread is done: API 1-48
+2025-11-13 21:55:08,582 INFO o.a.j.t.JMeterThread: Thread finished: API 1-48
+2025-11-13 21:55:08,665 INFO o.a.j.t.JMeterThread: Thread started: API 1-49
+2025-11-13 21:55:08,674 INFO o.a.j.t.JMeterThread: Thread is done: API 1-49
+2025-11-13 21:55:08,674 INFO o.a.j.t.JMeterThread: Thread finished: API 1-49
+2025-11-13 21:55:08,767 INFO o.a.j.t.JMeterThread: Thread started: API 1-50
+2025-11-13 21:55:08,780 INFO o.a.j.t.JMeterThread: Thread is done: API 1-50
+2025-11-13 21:55:08,780 INFO o.a.j.t.JMeterThread: Thread finished: API 1-50
+2025-11-13 21:55:08,865 INFO o.a.j.t.JMeterThread: Thread started: API 1-51
+2025-11-13 21:55:08,878 INFO o.a.j.t.JMeterThread: Thread is done: API 1-51
+2025-11-13 21:55:08,878 INFO o.a.j.t.JMeterThread: Thread finished: API 1-51
+2025-11-13 21:55:08,966 INFO o.a.j.t.JMeterThread: Thread started: API 1-52
+2025-11-13 21:55:08,978 INFO o.a.j.t.JMeterThread: Thread is done: API 1-52
+2025-11-13 21:55:08,978 INFO o.a.j.t.JMeterThread: Thread finished: API 1-52
+2025-11-13 21:55:09,066 INFO o.a.j.t.JMeterThread: Thread started: API 1-53
+2025-11-13 21:55:09,078 INFO o.a.j.t.JMeterThread: Thread is done: API 1-53
+2025-11-13 21:55:09,078 INFO o.a.j.t.JMeterThread: Thread finished: API 1-53
+2025-11-13 21:55:09,167 INFO o.a.j.t.JMeterThread: Thread started: API 1-54
+2025-11-13 21:55:09,181 INFO o.a.j.t.JMeterThread: Thread is done: API 1-54
+2025-11-13 21:55:09,181 INFO o.a.j.t.JMeterThread: Thread finished: API 1-54
+2025-11-13 21:55:09,267 INFO o.a.j.t.JMeterThread: Thread started: API 1-55
+2025-11-13 21:55:09,278 INFO o.a.j.t.JMeterThread: Thread is done: API 1-55
+2025-11-13 21:55:09,279 INFO o.a.j.t.JMeterThread: Thread finished: API 1-55
+2025-11-13 21:55:09,365 INFO o.a.j.t.JMeterThread: Thread started: API 1-56
+2025-11-13 21:55:09,378 INFO o.a.j.t.JMeterThread: Thread is done: API 1-56
+2025-11-13 21:55:09,378 INFO o.a.j.t.JMeterThread: Thread finished: API 1-56
+2025-11-13 21:55:09,466 INFO o.a.j.t.JMeterThread: Thread started: API 1-57
+2025-11-13 21:55:09,477 INFO o.a.j.t.JMeterThread: Thread is done: API 1-57
+2025-11-13 21:55:09,477 INFO o.a.j.t.JMeterThread: Thread finished: API 1-57
+2025-11-13 21:55:09,566 INFO o.a.j.t.JMeterThread: Thread started: API 1-58
+2025-11-13 21:55:09,577 INFO o.a.j.t.JMeterThread: Thread is done: API 1-58
+2025-11-13 21:55:09,577 INFO o.a.j.t.JMeterThread: Thread finished: API 1-58
+2025-11-13 21:55:09,666 INFO o.a.j.t.JMeterThread: Thread started: API 1-59
+2025-11-13 21:55:09,676 INFO o.a.j.t.JMeterThread: Thread is done: API 1-59
+2025-11-13 21:55:09,676 INFO o.a.j.t.JMeterThread: Thread finished: API 1-59
+2025-11-13 21:55:09,766 INFO o.a.j.t.JMeterThread: Thread started: API 1-60
+2025-11-13 21:55:09,775 INFO o.a.j.t.JMeterThread: Thread is done: API 1-60
+2025-11-13 21:55:09,776 INFO o.a.j.t.JMeterThread: Thread finished: API 1-60
+2025-11-13 21:55:09,869 INFO o.a.j.t.JMeterThread: Thread started: API 1-61
+2025-11-13 21:55:09,878 INFO o.a.j.t.JMeterThread: Thread is done: API 1-61
+2025-11-13 21:55:09,879 INFO o.a.j.t.JMeterThread: Thread finished: API 1-61
+2025-11-13 21:55:09,965 INFO o.a.j.t.JMeterThread: Thread started: API 1-62
+2025-11-13 21:55:09,971 INFO o.a.j.t.JMeterThread: Thread is done: API 1-62
+2025-11-13 21:55:09,971 INFO o.a.j.t.JMeterThread: Thread finished: API 1-62
+2025-11-13 21:55:10,065 INFO o.a.j.t.JMeterThread: Thread started: API 1-63
+2025-11-13 21:55:10,081 INFO o.a.j.t.JMeterThread: Thread is done: API 1-63
+2025-11-13 21:55:10,081 INFO o.a.j.t.JMeterThread: Thread finished: API 1-63
+2025-11-13 21:55:10,166 INFO o.a.j.t.JMeterThread: Thread started: API 1-64
+2025-11-13 21:55:10,185 INFO o.a.j.t.JMeterThread: Thread is done: API 1-64
+2025-11-13 21:55:10,185 INFO o.a.j.t.JMeterThread: Thread finished: API 1-64
+2025-11-13 21:55:10,266 INFO o.a.j.t.JMeterThread: Thread started: API 1-65
+2025-11-13 21:55:10,272 INFO o.a.j.t.JMeterThread: Thread is done: API 1-65
+2025-11-13 21:55:10,272 INFO o.a.j.t.JMeterThread: Thread finished: API 1-65
+2025-11-13 21:55:10,365 INFO o.a.j.t.JMeterThread: Thread started: API 1-66
+2025-11-13 21:55:10,371 INFO o.a.j.t.JMeterThread: Thread is done: API 1-66
+2025-11-13 21:55:10,372 INFO o.a.j.t.JMeterThread: Thread finished: API 1-66
+2025-11-13 21:55:10,470 INFO o.a.j.t.JMeterThread: Thread started: API 1-67
+2025-11-13 21:55:10,481 INFO o.a.j.t.JMeterThread: Thread is done: API 1-67
+2025-11-13 21:55:10,481 INFO o.a.j.t.JMeterThread: Thread finished: API 1-67
+2025-11-13 21:55:10,566 INFO o.a.j.t.JMeterThread: Thread started: API 1-68
+2025-11-13 21:55:10,590 INFO o.a.j.t.JMeterThread: Thread is done: API 1-68
+2025-11-13 21:55:10,590 INFO o.a.j.t.JMeterThread: Thread finished: API 1-68
+2025-11-13 21:55:10,666 INFO o.a.j.t.JMeterThread: Thread started: API 1-69
+2025-11-13 21:55:10,676 INFO o.a.j.t.JMeterThread: Thread is done: API 1-69
+2025-11-13 21:55:10,676 INFO o.a.j.t.JMeterThread: Thread finished: API 1-69
+2025-11-13 21:55:10,766 INFO o.a.j.t.JMeterThread: Thread started: API 1-70
+2025-11-13 21:55:10,771 INFO o.a.j.t.JMeterThread: Thread is done: API 1-70
+2025-11-13 21:55:10,771 INFO o.a.j.t.JMeterThread: Thread finished: API 1-70
+2025-11-13 21:55:10,866 INFO o.a.j.t.JMeterThread: Thread started: API 1-71
+2025-11-13 21:55:10,878 INFO o.a.j.t.JMeterThread: Thread is done: API 1-71
+2025-11-13 21:55:10,878 INFO o.a.j.t.JMeterThread: Thread finished: API 1-71
+2025-11-13 21:55:10,966 INFO o.a.j.t.JMeterThread: Thread started: API 1-72
+2025-11-13 21:55:10,976 INFO o.a.j.t.JMeterThread: Thread is done: API 1-72
+2025-11-13 21:55:10,976 INFO o.a.j.t.JMeterThread: Thread finished: API 1-72
+2025-11-13 21:55:11,067 INFO o.a.j.t.JMeterThread: Thread started: API 1-73
+2025-11-13 21:55:11,079 INFO o.a.j.t.JMeterThread: Thread is done: API 1-73
+2025-11-13 21:55:11,079 INFO o.a.j.t.JMeterThread: Thread finished: API 1-73
+2025-11-13 21:55:11,166 INFO o.a.j.t.JMeterThread: Thread started: API 1-74
+2025-11-13 21:55:11,178 INFO o.a.j.t.JMeterThread: Thread is done: API 1-74
+2025-11-13 21:55:11,178 INFO o.a.j.t.JMeterThread: Thread finished: API 1-74
+2025-11-13 21:55:11,265 INFO o.a.j.t.JMeterThread: Thread started: API 1-75
+2025-11-13 21:55:11,275 INFO o.a.j.t.JMeterThread: Thread is done: API 1-75
+2025-11-13 21:55:11,276 INFO o.a.j.t.JMeterThread: Thread finished: API 1-75
+2025-11-13 21:55:11,366 INFO o.a.j.t.JMeterThread: Thread started: API 1-76
+2025-11-13 21:55:11,377 INFO o.a.j.t.JMeterThread: Thread is done: API 1-76
+2025-11-13 21:55:11,377 INFO o.a.j.t.JMeterThread: Thread finished: API 1-76
+2025-11-13 21:55:11,466 INFO o.a.j.t.JMeterThread: Thread started: API 1-77
+2025-11-13 21:55:11,475 INFO o.a.j.t.JMeterThread: Thread is done: API 1-77
+2025-11-13 21:55:11,475 INFO o.a.j.t.JMeterThread: Thread finished: API 1-77
+2025-11-13 21:55:11,566 INFO o.a.j.t.JMeterThread: Thread started: API 1-78
+2025-11-13 21:55:11,576 INFO o.a.j.t.JMeterThread: Thread is done: API 1-78
+2025-11-13 21:55:11,577 INFO o.a.j.t.JMeterThread: Thread finished: API 1-78
+2025-11-13 21:55:11,666 INFO o.a.j.t.JMeterThread: Thread started: API 1-79
+2025-11-13 21:55:11,677 INFO o.a.j.t.JMeterThread: Thread is done: API 1-79
+2025-11-13 21:55:11,677 INFO o.a.j.t.JMeterThread: Thread finished: API 1-79
+2025-11-13 21:55:11,766 INFO o.a.j.t.JMeterThread: Thread started: API 1-80
+2025-11-13 21:55:11,775 INFO o.a.j.t.JMeterThread: Thread is done: API 1-80
+2025-11-13 21:55:11,776 INFO o.a.j.t.JMeterThread: Thread finished: API 1-80
+2025-11-13 21:55:11,869 INFO o.a.j.t.JMeterThread: Thread started: API 1-81
+2025-11-13 21:55:11,881 INFO o.a.j.t.JMeterThread: Thread is done: API 1-81
+2025-11-13 21:55:11,881 INFO o.a.j.t.JMeterThread: Thread finished: API 1-81
+2025-11-13 21:55:11,965 INFO o.a.j.t.JMeterThread: Thread started: API 1-82
+2025-11-13 21:55:11,977 INFO o.a.j.t.JMeterThread: Thread is done: API 1-82
+2025-11-13 21:55:11,977 INFO o.a.j.t.JMeterThread: Thread finished: API 1-82
+2025-11-13 21:55:12,065 INFO o.a.j.t.JMeterThread: Thread started: API 1-83
+2025-11-13 21:55:12,074 INFO o.a.j.t.JMeterThread: Thread is done: API 1-83
+2025-11-13 21:55:12,074 INFO o.a.j.t.JMeterThread: Thread finished: API 1-83
+2025-11-13 21:55:12,166 INFO o.a.j.t.JMeterThread: Thread started: API 1-84
+2025-11-13 21:55:12,175 INFO o.a.j.t.JMeterThread: Thread is done: API 1-84
+2025-11-13 21:55:12,175 INFO o.a.j.t.JMeterThread: Thread finished: API 1-84
+2025-11-13 21:55:12,265 INFO o.a.j.t.JMeterThread: Thread started: API 1-85
+2025-11-13 21:55:12,277 INFO o.a.j.t.JMeterThread: Thread is done: API 1-85
+2025-11-13 21:55:12,277 INFO o.a.j.t.JMeterThread: Thread finished: API 1-85
+2025-11-13 21:55:12,366 INFO o.a.j.t.JMeterThread: Thread started: API 1-86
+2025-11-13 21:55:12,378 INFO o.a.j.t.JMeterThread: Thread is done: API 1-86
+2025-11-13 21:55:12,378 INFO o.a.j.t.JMeterThread: Thread finished: API 1-86
+2025-11-13 21:55:12,467 INFO o.a.j.t.JMeterThread: Thread started: API 1-87
+2025-11-13 21:55:12,475 INFO o.a.j.t.JMeterThread: Thread is done: API 1-87
+2025-11-13 21:55:12,475 INFO o.a.j.t.JMeterThread: Thread finished: API 1-87
+2025-11-13 21:55:12,567 INFO o.a.j.t.JMeterThread: Thread started: API 1-88
+2025-11-13 21:55:12,576 INFO o.a.j.t.JMeterThread: Thread is done: API 1-88
+2025-11-13 21:55:12,576 INFO o.a.j.t.JMeterThread: Thread finished: API 1-88
+2025-11-13 21:55:12,666 INFO o.a.j.t.JMeterThread: Thread started: API 1-89
+2025-11-13 21:55:12,672 INFO o.a.j.t.JMeterThread: Thread is done: API 1-89
+2025-11-13 21:55:12,672 INFO o.a.j.t.JMeterThread: Thread finished: API 1-89
+2025-11-13 21:55:12,766 INFO o.a.j.t.JMeterThread: Thread started: API 1-90
+2025-11-13 21:55:12,775 INFO o.a.j.t.JMeterThread: Thread is done: API 1-90
+2025-11-13 21:55:12,776 INFO o.a.j.t.JMeterThread: Thread finished: API 1-90
+2025-11-13 21:55:12,866 INFO o.a.j.t.JMeterThread: Thread started: API 1-91
+2025-11-13 21:55:12,871 INFO o.a.j.t.JMeterThread: Thread is done: API 1-91
+2025-11-13 21:55:12,872 INFO o.a.j.t.JMeterThread: Thread finished: API 1-91
+2025-11-13 21:55:12,966 INFO o.a.j.t.JMeterThread: Thread started: API 1-92
+2025-11-13 21:55:12,972 INFO o.a.j.t.JMeterThread: Thread is done: API 1-92
+2025-11-13 21:55:12,972 INFO o.a.j.t.JMeterThread: Thread finished: API 1-92
+2025-11-13 21:55:13,065 INFO o.a.j.t.JMeterThread: Thread started: API 1-93
+2025-11-13 21:55:13,071 INFO o.a.j.t.JMeterThread: Thread is done: API 1-93
+2025-11-13 21:55:13,071 INFO o.a.j.t.JMeterThread: Thread finished: API 1-93
+2025-11-13 21:55:13,166 INFO o.a.j.t.JMeterThread: Thread started: API 1-94
+2025-11-13 21:55:13,173 INFO o.a.j.t.JMeterThread: Thread is done: API 1-94
+2025-11-13 21:55:13,173 INFO o.a.j.t.JMeterThread: Thread finished: API 1-94
+2025-11-13 21:55:13,267 INFO o.a.j.t.JMeterThread: Thread started: API 1-95
+2025-11-13 21:55:13,274 INFO o.a.j.t.JMeterThread: Thread is done: API 1-95
+2025-11-13 21:55:13,274 INFO o.a.j.t.JMeterThread: Thread finished: API 1-95
+2025-11-13 21:55:13,366 INFO o.a.j.t.JMeterThread: Thread started: API 1-96
+2025-11-13 21:55:13,371 INFO o.a.j.t.JMeterThread: Thread is done: API 1-96
+2025-11-13 21:55:13,371 INFO o.a.j.t.JMeterThread: Thread finished: API 1-96
+2025-11-13 21:55:13,467 INFO o.a.j.t.JMeterThread: Thread started: API 1-97
+2025-11-13 21:55:13,473 INFO o.a.j.t.JMeterThread: Thread is done: API 1-97
+2025-11-13 21:55:13,473 INFO o.a.j.t.JMeterThread: Thread finished: API 1-97
+2025-11-13 21:55:13,566 INFO o.a.j.t.JMeterThread: Thread started: API 1-98
+2025-11-13 21:55:13,574 INFO o.a.j.t.JMeterThread: Thread is done: API 1-98
+2025-11-13 21:55:13,574 INFO o.a.j.t.JMeterThread: Thread finished: API 1-98
+2025-11-13 21:55:13,665 INFO o.a.j.t.JMeterThread: Thread started: API 1-99
+2025-11-13 21:55:13,680 INFO o.a.j.t.JMeterThread: Thread is done: API 1-99
+2025-11-13 21:55:13,680 INFO o.a.j.t.JMeterThread: Thread finished: API 1-99
+2025-11-13 21:55:13,766 INFO o.a.j.t.JMeterThread: Thread started: API 1-100
+2025-11-13 21:55:13,783 INFO o.a.j.t.JMeterThread: Thread is done: API 1-100
+2025-11-13 21:55:13,784 INFO o.a.j.t.JMeterThread: Thread finished: API 1-100
+2025-11-13 21:55:13,784 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-11-13 21:55:13,786 INFO o.a.j.r.Summariser: summary +     99 in 00:00:10 =   10.2/s Avg:     7 Min:     3 Max:    59 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+2025-11-13 21:55:13,789 INFO o.a.j.r.Summariser: summary =    100 in 00:00:10 =   10.1/s Avg:     8 Min:     3 Max:    59 Err:     0 (0.00%)
+2025-11-13 21:55:13,790 INFO o.a.j.JMeter: Generating Dashboard
+2025-11-13 21:55:13,790 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-11-13 21:55:13,803 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-11-13 21:55:13,880 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-11-13 21:55:13,880 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-11-13 21:55:13,885 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-11-13 21:55:13,885 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-11-13 21:55:13,890 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-11-13 21:55:13,891 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-11-13 21:55:13,891 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-11-13 21:55:13,891 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-11-13 21:55:13,907 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-11-13 21:55:13,908 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-11-13 21:55:13,908 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-11-13 21:55:13,908 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 700 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 1500 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 300 samples
+2025-11-13 21:55:13,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 100 samples
+2025-11-13 21:55:13,915 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 100 samples produced in 83ms on channel 0
+2025-11-13 21:55:13,915 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-11-13 21:55:13,984 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2025-11-13 21:55:13,985 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-11-13 21:55:13,985 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-11-13 21:55:13,986 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-11-13 21:55:13,987 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\Administrador\teste-software-univas\backend\tests\jmeter\reports\smoke\statistics.json
+2025-11-13 21:55:14,030 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-11-13 21:55:14,033 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\Administrador\teste-software-univas\backend\tests\jmeter\reports\smoke
+2025-11-13 21:55:14,109 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\Administrador\teste-software-univas\backend\tests\jmeter\reports\smoke, creating folder structure
+2025-11-13 21:55:14,111 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\Administrador\teste-software-univas\backend\tests\jmeter\reports\smoke', got message: C:\Users\Administrador\teste-software-univas\backend\tests\jmeter\reports\smoke, found non empty folder with following content [C:\Users\Administrador\teste-software-univas\backend\tests\jmeter\reports\smoke\statistics.json], will be ignored
+2025-11-13 21:55:14,453 INFO o.a.j.JMeter: Dashboard generated

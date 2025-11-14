@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 8.120000000000003,
+    "medianResTime" : 7.0,
+    "minResTime" : 3.0,
+    "maxResTime" : 59.0,
+    "pct1ResTime" : 10.0,
+    "pct2ResTime" : 12.949999999999989,
+    "pct3ResTime" : 59.0,
+    "throughput" : 10.230179028132993,
+    "receivedKBytesPerSec" : 9.95044757033248,
+    "sentKBytesPerSec" : 1.2188299232736572
+  },
+  "health" : {
+    "transaction" : "health",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 8.120000000000003,
+    "medianResTime" : 7.0,
+    "minResTime" : 3.0,
+    "maxResTime" : 59.0,
+    "pct1ResTime" : 10.0,
+    "pct2ResTime" : 12.949999999999989,
+    "pct3ResTime" : 59.0,
+    "throughput" : 10.230179028132993,
+    "receivedKBytesPerSec" : 9.95044757033248,
+    "sentKBytesPerSec" : 1.2188299232736572
+  }
+}
